@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  font-size: 16px;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+#title {
+  color: #2e8b57;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  margin-top: 30px;
+}
+
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+#img-div {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+  font-size: 1.1em;
+}
+
+
+#tribute-info {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #333;
+  margin-top: 30px;
+  text-align: justify;
+}
+
+#tribute-info h2 {
+  color: #2e8b57;
+  font-size: 2em;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#tribute-info ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#tribute-info ul li {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+
+#tribute-link {
+  display: inline-block;
+  text-align: center;
+  background-color: #2e8b57;
+  color: white;
+  font-size: 1.3em;
+  padding: 15px 25px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #236b47;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1em;
+  color: #777;
+}
+
+footer p {
+  margin-top: 20px;
+  color: #555;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  #title {
+    font-size: 2.5em;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  #tribute-info {
+    font-size: 1.1em;
+  }
+
+  #tribute-link {
+    font-size: 1.2em;
+    padding: 12px 20px;
+  }
+
+  #img-caption {
+    font-size: 1em;
+  }
+}
