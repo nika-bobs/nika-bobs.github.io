@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -25,7 +24,6 @@ header {
   color: #2e8b57;
   font-weight: bold;
   letter-spacing: 2px;
-  text-transform: uppercase;
   font-size: 3.5em;
   margin-top: 30px;
 }
@@ -42,7 +40,7 @@ main {
 
 
 #img-div {
-  position: relative;
+  position: center;
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
@@ -54,7 +52,7 @@ main {
   height: auto;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px
 }
 
 
@@ -102,14 +100,9 @@ main {
   margin-top: 20px;
   border-radius: 5px;
   text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px;
 }
 
-#tribute-link:hover {
-  background-color: #236b47;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
 
 
 footer {
