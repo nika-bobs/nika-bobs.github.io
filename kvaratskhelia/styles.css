@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #f4f4f4;
   color: #333;
@@ -12,7 +11,6 @@ body {
   padding: 20px;
   font-size: 16px;
 }
-
 
 header {
   text-align: center;
@@ -28,7 +26,6 @@ header {
   margin-top: 30px;
 }
 
-
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -37,7 +34,6 @@ main {
   border-radius: 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
-
 
 #img-div {
   position: relative;
@@ -52,9 +48,8 @@ main {
   height: auto;
   margin: 0 auto;
   border-radius: 10px;
-  box-shadow: 0 4px 6px
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
 
 #img-caption {
   margin-top: 10px;
@@ -62,7 +57,6 @@ main {
   color: #555;
   font-size: 1.1em;
 }
-
 
 #tribute-info {
   font-size: 1.2em;
@@ -89,7 +83,6 @@ main {
   margin-bottom: 15px;
 }
 
-
 #tribute-link {
   display: inline-block;
   text-align: center;
@@ -100,10 +93,8 @@ main {
   margin-top: 20px;
   border-radius: 5px;
   text-decoration: none;
-  box-shadow: 0 4px 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-
 
 footer {
   text-align: center;
@@ -118,7 +109,6 @@ footer p {
   font-style: italic;
   font-size: 1.1em;
 }
-
 
 @media screen and (max-width: 768px) {
   body {
