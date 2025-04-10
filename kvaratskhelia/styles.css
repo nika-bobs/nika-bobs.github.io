@@ -40,7 +40,7 @@ main {
 
 
 #img-div {
-  position: float;
+  position: absolute;
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
